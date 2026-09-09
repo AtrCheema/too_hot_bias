@@ -1,0 +1,30 @@
+# Core array / IO stack
+numpy
+pandas
+xarray
+netCDF4
+cftime
+pyarrow
+
+# Catchment geometry and gridded IO
+geopandas
+geojson
+pyshp
+rasterio
+
+# Hydrological and climate model code
+numba              # HBV kernel (models/hbv.py)
+torch              # LSTM inference (ml_utils.py)
+git+https://github.com/AtrCheema/AI4Water.git@dev   # Learner API used by ml_utils.py
+
+# CMIP6 catalogue access (imported at module level by utils.py)
+intake-esm
+intake-esgf
+
+# Figures
+matplotlib
+cartopy
+scipy
+cmcrameri          # perceptually uniform colormaps (hydro_indices_change.py)
+textalloc          # non-overlapping model labels (fig01, fig_tcr_attribution)
+adjustText         # fallback label placement (fig01)

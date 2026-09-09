@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+
+# generated output
+/results/
+/outputs/
+/tmp/
+/slurm_outputs/
+
+# figures and tables written by the scripts
+/paper/figures/**/*.png
+/paper/tables/*.csv
+/paper/tables/*.tex
+
+.vscode/
+.claude/
